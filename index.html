@@ -18,7 +18,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>迈典广告｜创意无界，引领数字营销新潮流</title>
+    <title>迈典广告｜创意无界</title>
     <style>
         /* 基础重置 */
         * {
@@ -30,9 +30,9 @@
         /* 全局样式 */
         body {
             min-height: 100vh;
-            background-color: #FFD700; /* 与LOGO一致的金色背景 */
+            background: linear-gradient(135deg, #f8b30d 0%, #ffb100 100%);
             font-family: 'Segoe UI', Arial, sans-serif;
-            color: #333;
+            color: #0b0704;
             display: flex;
             flex-direction: column;
             line-height: 1.6;
@@ -45,26 +45,28 @@
             justify-content: center;
             align-items: center;
             padding: 2rem;
+            position: relative;
         }
 
         /* Logo样式 */
         .logo {
             width: 300px;
             height: auto;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            border-radius: 12px;
             transition: transform 0.3s ease;
+            box-shadow: 0 12px 30px rgba(48, 24, 2, 0.2);
+            border-radius: 12px;
+            filter: drop-shadow(0 4px 6px rgba(0,0,0,0.1));
         }
 
         .logo:hover {
-            transform: scale(1.02) rotate(1deg);
+            transform: scale(1.03) rotate(1deg);
         }
 
         /* 页脚样式 */
         footer {
-            background-color: rgba(75, 85, 99, 0.6); /* 半透明灰 */
+            background-color: rgba(48, 24, 2, 0.7); /* 深褐半透明 */
             padding: 1.5rem 1rem;
-            color: #f9f9f9;
+            color: #fff;
             font-size: 0.9rem;
         }
 
@@ -106,7 +108,8 @@
         <div class="footer-content">
             <div>© 2008-2023 杭州迈典广告文化有限公司 版权所有</div>
             <div>
-                联系电话：+86-18668186363 | +86-17816029494
+                联系电话：+86-571-12345678 | 
+                邮箱：creative@myidea.com.cn
             </div>
         </div>
     </footer>
